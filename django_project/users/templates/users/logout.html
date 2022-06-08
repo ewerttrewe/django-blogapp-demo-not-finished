@@ -1,0 +1,6 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content_container %}
+<p>You have successfully logged out!</p>
+<small>Come back if you want :) - <a href="{% url 'login' %}">Log in!</a></small>
+{% endblock content_container %}
